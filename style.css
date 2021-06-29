@@ -6,7 +6,7 @@ body,.row,section,header
 }
 #nav-logo
 {
-    font-size: 35px;
+    font-size: 37px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     padding: 20px;
@@ -89,7 +89,7 @@ h3
 {
     #nav-logo
 {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 5px;
     width: 100%;
     font-weight: bolder;
