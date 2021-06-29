@@ -1,0 +1,72 @@
+body,.row,section
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+/*for the first section */
+#overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.icon
+{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    color: white ;
+    transition: 0.3s ease-in;
+    -webkit-box-shadow:0px 0px 10px rgba(255, 255, 255, 0.4)
+
+    
+}
+
+
+.icon:hover
+{
+    transform: rotate(360deg);
+    height: 60px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    -webkit-box-shadow:0px 0px 10px rgb(0, 0, 0)
+
+}
+#bg-img
+{
+    background-image: url(bgg.jpg);
+    background-size: cover;
+    height: 100vh; width: 100%;    
+}
+
+
+
+.card-img-top
+{
+    height: 300px;
+ 
+}
+.card
+{
+    -webkit-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.658)
+}
+footer
+{
+    background-color: black;
+    padding: 5%;
+    color:white;
+    position: static;
+}
+h3
+{
+    text-transform: uppercase;
+}
+.card
+{
+    border: none;
+}
