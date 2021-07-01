@@ -4,6 +4,19 @@ body,.row,section,header
     padding: 0px;
 
 }
+a
+{
+    text-decoration: none;
+    color: black;
+    padding: 16px 8px;
+    font-size: 22px;
+}
+a:hover
+{
+    color:#DC3545 ;
+
+}
+
 #nav-logo
 {
     font-size: 37px;
@@ -14,7 +27,7 @@ body,.row,section,header
 }
 header
 {
-    position: static;
+position: static;
 }
 #overlay
 {
@@ -29,16 +42,14 @@ button
 {   
     font-family: cursive;
     font-weight:600;
-    font-size: 20px;
     border-radius: 5px;
-    padding: 8px;
     background-color: #DC3545;
     margin: 5px;
 }
 button:hover
 {
     background-color: black;
-    color:#DC3545 ;
+
 
 }
 
@@ -46,7 +57,7 @@ button:hover
 
 #bg-img
 {
-
+    background-image: url(bgg.jpg);
     background-size: cover;
     height: 100vh; width: 100%;    
 }
