@@ -20,34 +20,29 @@ header
 {
     background-color: rgba(0, 0, 0, 0.6);
     height: 100vh;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     }
-.icon
-{
-    height: 50px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    padding: 10px;
-    margin: 10px;
-    color:#DC3545;
-    transition: 0.3s ease-in;
-    -webkit-box-shadow:0px 0px 10px #dc354650;
 
-    
+button
+{   
+    font-family: cursive;
+    font-weight:600;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #DC3545;
+    margin: 5px;
+}
+button:hover
+{
+    background-color: black;
+    color:#DC3545 ;
+
 }
 
 
-.icon:hover
-{
-    transform: rotate(360deg);
-    height: 60px;
-    color: rgb(0, 0, 0);
-    background-color:#DC3545;
-    -webkit-box-shadow:0px 0px 10px rgb(0, 0, 0)
 
-}
 #bg-img
 {
     background-image: url(bgg.jpg);
@@ -102,5 +97,8 @@ video
     {
         position: relative;
     }
-
+    button
+    {
+        width: 100%;
+    }
 }
