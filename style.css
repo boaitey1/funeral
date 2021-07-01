@@ -30,6 +30,7 @@ button
     font-family: cursive;
     font-weight:600;
     font-size: 20px;
+    border-radius: 5px;
     padding: 8px;
     background-color: #DC3545;
     margin: 5px;
