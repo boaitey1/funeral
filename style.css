@@ -7,9 +7,11 @@ body,.row,section,header
 a
 {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 16px 8px;
-    font-size: 22px;
+    font-family: cursive;
+    font-weight:600;
+    font-size: 30px;
 }
 a:hover
 {
@@ -40,15 +42,15 @@ position: static;
 
 button
 {   
-    font-family: cursive;
-    font-weight:600;
+    font-size: 20px;
+
     border-radius: 5px;
     background-color: #DC3545;
     margin: 5px;
 }
 button:hover
 {
-    background-color: black;
+    background-color: white;
 
 
 }
