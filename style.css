@@ -27,8 +27,8 @@ a:hover
 }
 header
 {
-position: fixed;
-    top: 0;
+position: static;
+    
 }
 #overlay
 {
@@ -59,7 +59,7 @@ button:hover
 #bg-img
 {
     background-image: url(revbg.svg);
-    background-size: cover;
+    background-size: contain;
     height: 100vh; width: 100%;    
 }
 
