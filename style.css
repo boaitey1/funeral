@@ -60,7 +60,7 @@ button:hover
 {
     background-image: url(revbg.svg);
     background repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh; width: 100%;    
 }
 
