@@ -8,7 +8,8 @@ app.secret_key = b'E_5N#yO2LC"FH4QS8zEffMhgf46@@]'
 
 gideon = "0208162005" #0208162005
 ekow = "0550726756" #0550726756
-general_family = "0546353625" #0546353625
+general_family = "0208162005" #0546353625
+augusta = "0546353625"
 
 TABLE_NAME = "contributor"
 
@@ -49,6 +50,8 @@ def donations():
         
         elif beneficiary == "General Family":
             beneficiary_sms(contributor_name, amount, contributor_contact, beneficiary, general_family)
+        elif beneficiary == "Augusta":
+            beneficiary_sms(contributor_name, amount, contributor_contact, beneficiary,augusta)
         
         flash("Successful")
         return redirect(url_for("donations"))
