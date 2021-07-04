@@ -9,7 +9,7 @@ app.secret_key = b'E_5N#yO2LC"FH4QS8zEffMhgf46@@]'
 gideon = "0208162005" #0208162005
 ekow = "0550726756" #0550726756
 general_family = "0208162005" #0546353625
-augusta = "0546353625"
+augusta = "0244879849"
 
 TABLE_NAME = "contributor"
 
