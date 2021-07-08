@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+
+
+
+{% block title %}
+	Funeral
+{% endblock %}
+
+
+
+{% block body %}
+<div class="container p-3 bg-light" style="width: 600px;">
+
+	<div class="col-md-12" align="center" >
+		<h2 id="title">Fund Management</h2>
+<!-- 		<p id="descr">Some random info or carefully selected instructions</p> -->
+	</div>
+	{% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+      <small class="text text-success text-center">{{ message }}</small>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+	<form name='registration' method="POST" >
+
+		<div class="form-group">
+			<label for="fname">Full name:</label>
+			<input class="form-control" required id="fname" type="text" size="30" name="name">
+		</div>
+
+		<div class="form-group">
+			<label for="uphone">Contact No:</label>
+			<input class="form-control" required type="tel" size="30" minlength="10" maxlength ="10" name="contact">
+		</div>
+
+		<div class="form-group">
+			<label for="amt">Amount Received</label>
+			<input class="form-control" id="amt" type="number" required="" min="1" name="amount">
+		</div>
+
+		<div class="form-group">
+			<label for="beneficiary">Beneficiary</label>
+			<select class="form-control"  required="" name="beneficiary">
+				<option disabled="disabled" selected="">Please select beneficiary</option>
+				<option id="fam1" value="Gideon">Gideon</option>
+				<option id="fam2" value="Ekow">Ekow</option>				
+				<option id="fam4" value="Augusta">Augusta</option>
+				<option id="fam3" value="General Family">General Family</option>
+			</select>
+		</div>
+
+<!-- 		<a href="/donations/admin">Go to Admin</a>	 -->
+		<div class="d-flex justify-content-end">
+			<div class="mx-3">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+			</div>
+			<button type="submit" class="btn btn-primary">+Records</button>
+		</div>
+		
+	</form>
+</div>
+{% endblock %}
